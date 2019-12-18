@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <h1>Jamison Stramer</h1>
+      <h1>Jamison Stramer (In Progress)</h1>
 
       <nav class="headLink">
         <a href="index.html">About</a> |
@@ -22,13 +22,34 @@
       <div class="container">
         <h2 class="sectHead">Contact</h2>
         <form>
-          Name:<br />
-          <input type="text" name="name" /><br />
-          Email:<br />
-          <input type="text" name="email" /><br />
-          Message:<br />
-          <input type="text" name="message" /><br />
-          <button type="button">Submit</button>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name:</label>
+            <input
+              type="name"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="First Last"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message:</label><br />
+            <textarea
+              class="form-control"
+              id="Textarea"
+              rows="7"
+              style="min-width: 100%;"
+            ></textarea>
+          </div>
         </form>
       </div>
     </div>
