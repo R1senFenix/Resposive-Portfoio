@@ -8,3 +8,68 @@ body {
   color: #777777;
   background-image: url("../images/vintage-wallpaper.png");
 }
+
+.container {
+  width: 90%;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid grey;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h1 {
+  background-color: #4aaaa5;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: fit-content;
+  padding: 1em;
+  height: 100%;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.nav-color {
+  color: gray;
+}
+
+.active {
+  font-weight: bold;
+}
+.content {
+  background-color: #ffffff;
+  margin-top: 1em;
+  border: 2px solid #dddddd;
+}
+
+h2 {
+  font-weight: bold;
+  color: #4aaaa5;
+  margin: 0.5em;
+}
+
+p {
+  border-top: 2px solid grey;
+  margin: 0.5em;
+  text-align: justify;
+  padding-top: 1em;
+}
+#profPic {
+  width: 20%;
+  margin: 1em;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+  border-top: 8px solid #4aaaa5;
+  margin: auto;
+  width: 100%;
+}
