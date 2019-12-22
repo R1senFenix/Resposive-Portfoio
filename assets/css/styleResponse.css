@@ -29,6 +29,7 @@ h1 {
   height: 100%;
   font-weight: bolder;
   font-size: x-large;
+  margin-left: 5em;
 }
 
 .nav-color {
@@ -42,6 +43,7 @@ h1 {
   background-color: #ffffff;
   margin-top: 1em;
   border: 2px solid #dddddd;
+  margin-bottom: 3em;
 }
 
 h2 {
@@ -62,6 +64,22 @@ h2 {
   margin-top: 0px;
 }
 
+.portImg {
+  width: 98%;
+  margin: 2em auto;
+  margin-top: 1em;
+}
+
+.card-title {
+  text-align: center;
+  color: #4aaaa5;
+  text-emphasis: none;
+}
+.card-text {
+  text-emphasis: none;
+  color: grey;
+}
+
 footer {
   background-color: #666666;
   color: white;
@@ -71,5 +89,6 @@ footer {
   vertical-align: top;
   border-top: 8px solid #4aaaa5;
   margin: auto;
+  margin-top: 10em;
   width: 100%;
 }
