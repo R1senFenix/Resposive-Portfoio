@@ -10,14 +10,14 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 95%;
 }
 
 header {
   background-color: #ffffff;
   border-bottom: 2px solid grey;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0em;
+  padding-bottom: 0em;
 }
 
 h1 {
@@ -50,7 +50,7 @@ h2 {
   margin: 0.5em;
 }
 
-p {
+.conBorder {
   border-top: 2px solid grey;
   margin: 0.5em;
   text-align: justify;
