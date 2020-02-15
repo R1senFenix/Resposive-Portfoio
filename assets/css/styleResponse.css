@@ -18,6 +18,8 @@ header {
   border-bottom: 2px solid grey;
   padding-top: 0em;
   padding-bottom: 0em;
+  padding-right: 4em;
+  padding-left: 4em;
 }
 
 h1 {
@@ -29,7 +31,6 @@ h1 {
   height: 100%;
   font-weight: bolder;
   font-size: x-large;
-  margin-left: 5em;
 }
 
 .nav-color {
